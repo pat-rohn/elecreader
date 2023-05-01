@@ -62,7 +62,7 @@ func Extract(answer string) (Result, error) {
 }
 
 func ExtractNumber(line string) (float64, error) {
-	log.Infof("Line: %s", line)
+	log.Tracef("Line: %s", line)
 	startIndex := strings.Index(line, "(") + 1
 	endIndex := strings.Index(line, "*")
 	numberStr := line[startIndex:endIndex]

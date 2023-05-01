@@ -27,13 +27,13 @@ C.5.0(0420)					// Status code (see section 5.5.3)
 */
 
 type Result struct {
-	TotalActiveEnergyImport float64 // kWH
-	ActiveEnergyImportRate1 float64 // kWH
-	ActiveEnergyImportRate2 float64 // kWH
-	TotalActiveEnergyExport float64 // kWH
-	ActiveEnergyExportRate1 float64 // kWH
-	ActiveEnergyExportRate2 float64 // kWH
-	ActiveEnergyAbsolute    float64 // kWH
+	TotalActiveEnergyImport float64 // kWh
+	ActiveEnergyImportRate1 float64 // kWh
+	ActiveEnergyImportRate2 float64 // kWh
+	TotalActiveEnergyExport float64 // kWh
+	ActiveEnergyExportRate1 float64 // kWh
+	ActiveEnergyExportRate2 float64 // kWh
+	ActiveEnergyAbsolute    float64 // kWh
 	CurrentLine1            float64 // A
 	CurrentLine2            float64 // A
 	CurrentLine3            float64 // A
